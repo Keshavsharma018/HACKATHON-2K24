@@ -25,28 +25,28 @@ char ask_question(Question q)
 int main()
 {
     printf("\n\n     ------------------\n\n");
-    printf("\t ~~~  WELCOME TO KBC  ~~~ \n\n");
+    printf("    ~~~  WELCOME TO KBC  ~~~ \n\n");
 
     Question questions[20] = {
-        {"What is the fastest bird in the world?", {"Falcon", "Peregrine Falcon", "sky Falcon", "Indiana Falcon"}, 'b'},
-        {"What is the largest mammal in the world?", {"Blue Whale", "Elephant", "Monkey", "Ostrich"}, 'a'},
+        {"Which is the fastest bird in the world?", {"Falcon", "Peregrine Falcon", "sky Falcon", "Indiana Falcon"}, 'b'},
+        {"Which is the largest mammal in the world?", {"Blue Whale", "Elephant", "Monkey", "Ostrich"}, 'a'},
         {"How many legs does a spider have?", {"Six", "Eight", "Four", "Ten"}, 'b'},
         {"Which animal is the largest primate in the world?", {"Penguin", "Gurilla", "Monkey", "Elephant"}, 'b'},
         {"What is the main diet of a panda?", {"Bamboo", "leaf", "Tree branch", "Fruits"}, 'a'},
-        {"What is the smallest bird in the world?", {"Bee Hummingbird", "Ostrich", "Dragon fly", "Parrot"}, 'a'},
+        {"Which is the smallest bird in the world?", {"Bee Hummingbird", "Ostrich", "Dragon fly", "Parrot"}, 'a'},
         {"How many hearts does an octopus have?", {"Six", "Seven", "Three", "Four"}, 'c'},
         {"How many bones do sharks have in their bodies?", {"One", "zero", "Hundrad", "One hundrad and seven"}, 'b'},
         {"Which bird is known for its colorful tail feathers?", {"Hummingbird", "Peacock", "Parrot", "Kingfisher"}, 'b'},
         {"Which ancient civilization built the pyramids?", {"Mohanjodaro", "Indus Valley", "Mayans", "Egyptians"}, 'd'},
         {"In which year did the Titanic sink?", {"1905", "1919", "1912", "1921"}, 'c'},
         {"Who was the British Prime Minister during World War II?", {"Winston Churchill", "Lord Dallogy", "Adolf Hitler", "kier Starmer"}, 'a'},
-        {"Who discovered America in 1492?", {"Christopher Columbus", "Wasco Digama", "Alexander", "Gangees Khan"}, 'd'},
-        {"What is the smallest bone in the human body?", {"incus", "Stapes", "Femur", "Anvil"}, 'b'},
+        {"Who discovered America in 1492?", {"Christopher Columbus", "Wasco Digama", "Alexander", "Gangees Khan"}, 'a'},
+        {"Which is the smallest bone in the human body?", {"incus", "Stapes", "Femur", "Anvil"}, 'b'},
         {"Which planet is known as the Earth's twin?", {"Jupiter", "Mars", "Venus", "Mercury"}, 'c'},
         {"Who discovered penicillin?", {"Charles Richard Drew", "Alexander Fleming", "Daniel Hale Williams", "Edward Jenner"}, 'b'},
-        {"What sport is known as 'The Beautiful Game'?", {"Cricket", "Hockey", "Golf", "Soccer"}, 'd'},
+        {"Which sport is known as 'The Beautiful Game'?", {"Cricket", "Hockey", "Golf", "Soccer"}, 'd'},
         {"What is the national sport of Japan?", {"Baseball", "Karate", "Sumo Wrestling", "Boxing"}, 'c'},
-        {"What is the smallest country in the world by land area?", {"Vatican City", "Israel", "Bhutan", "Republic Of Congo"}, 'a'},
+        {"Which is the smallest country in the world by land area?", {"Vatican City", "Israel", "Bhutan", "Republic Of Congo"}, 'a'},
         {"Who developed the theory of evolution?", {"Charles Darwin", "Walter C Willett", "Stephen Hawking", "Jane Goodall"}, 'a'},
     };
 
@@ -76,7 +76,7 @@ int main()
         }
         else
         {
-            printf("\n   \t~~~ CORRECT ~~~\n\n  ------------------------------- \n NEXT QUESTION IS ON YOUR SCREEN\n\n");
+            printf("\n   \t~~~ CORRECT ~~~\n\n  ------------------------------- \n ");
         }
     }
     printf(" 7  Croreeeeeeee......!!!!!!!! \n\n CONGO YOU WON 7 CRORE.....");
